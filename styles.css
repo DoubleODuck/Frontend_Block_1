@@ -1,0 +1,158 @@
+	* {
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	body {
+		background-color: #000000;
+	}
+
+	#section-1 {
+		background-image: url(Pictures/Section1Image.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+	}
+
+	#section-2 {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+		background-color: #EBEADF;
+		height: 120vh;
+	}
+
+	#section-3 {
+		background-image: url(Pictures/Section3Image.jpg);
+		background-size: 95% 70%;
+		background-position: center;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100vh;
+	}
+
+	#section-4 {
+		height: 100vh;
+		text-align: center;
+	}
+
+	#section-5 {
+		background-image: url(Pictures/Section5Image.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+		height: 100vh;
+	}
+
+	#section-6 {
+		height: 200vh;
+	}
+
+	#section-7 {
+		background-image: url(Pictures/Section7Image.jpg);
+		background-size: 100vw 90vh;
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100vh;
+		text-align: center;
+	}
+
+	#section-8 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row;
+		height: 50vh;
+	}
+
+	#nav-main {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row;
+		padding: 1% 2%;
+		height: 10vh;
+	}
+
+	.text-arial-black {
+		font-family: Arial;
+		color: black;
+	}
+
+	.text-arial-white {
+		font-family: Arial;
+		color: white;
+	}
+
+	.text-tnr-black {
+		font-family: 'Times New Roman';
+		color: black;
+	}
+
+	.text-tnr-white {
+		font-family: 'Times New Roman';
+		color: white;
+	}
+
+	h6,
+	.h6 {
+		font-size: 11px;
+	}
+
+	h5,
+	.h5 {
+		font-size: 14px;
+	}
+
+	h4,
+	.h4 {
+		font-size: 20px;
+	}
+
+	h3,
+	.h3 {
+		font-size: 32px;
+	}
+
+	h2,
+	.h2 {
+		font-size: 56px;
+	}
+
+	h1,
+	.h1 {
+		font-size: 104px;
+	}
+
+	button {
+		border: none;
+	}
+
+	.button-purple {
+		background-color: #483D8B;
+	}
+
+	.button-purple:hover {
+		background-color: #ff50d0;
+;
+	}
+
+	.button-black {
+		background-color: #000000FF;
+	}
+
+	.button-black:hover {
+		background-color: #000000C0;
+	}

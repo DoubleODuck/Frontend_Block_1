@@ -1,4 +1,25 @@
-	* {
+
+
+#section-1 .h4 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+#section-1 .h5 {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+#section-1 h1 {
+    font-size: 48px; /* Adjust the font size as needed */
+}
+
+#section-1 .h4,
+#section-1 .h5,
+#section-1 h1 {
+    font-family: Arial; /* Ensure consistency in font family */
+    color: white; /* Set the font color */
+    margin: 10px 0; /* Add margin for better spacing */
+}
+* {
 		padding: 0;
 		margin: 0;
 		text-decoration: none;
@@ -156,3 +177,68 @@
 	.button-black:hover {
 		background-color: #000000C0;
 	}
+#section-9 table {
+    width: 80%; /* Adjust the width of the table */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+#section-9 th,
+#section-9 td {
+    padding: 12px; /* Add padding to table cells */
+    text-align: left; /* Align text to the left within cells */
+    border: 1px solid #dddddd; /* Add borders to table cells */
+}
+
+#section-9 th {
+    background-color: #483D8B; /* Set background color for table header cells */
+    color: white; /* Set text color for table header cells */
+}
+	 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #483D8B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff50d0;
+}
+
+/* GitHub link styles */
+#section-8 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+#section-8 a:hover {
+    color: #ff50d0;
+}
